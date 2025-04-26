@@ -1,0 +1,99 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    margin: 30px;
+    gap: 40%;
+}
+
+.conteudo-principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+    gap: 40px
+}
+
+
+.img-principal {
+    max-width: 100%;
+    height: auto;
+}
+
+.ilustracao {
+    display: flex;
+    gap: 5%;
+
+}
+
+.ilustracao img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.text h2 {
+    font-size: 2.5;
+    color: #fff;
+    margin-bottom: 20px;
+    line-height: normal;
+
+}
+
+.text p {
+    font-size: 2;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+
+.register-btn {
+
+    background-color: white;
+    color: #702ddd;
+    border: none;
+    padding: 10px 35px;
+    border-radius: 100px;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 10px hsl(300, 69%, 71%);
+}
+
+.register-btn:hover {
+    background-color: hsl(300, 69%, 71%);
+}
+
+footer {
+
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    padding: 20px 115px;
+}
+
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+
+
+}
+
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    background-color: #fff;
+    color: hsl(300, 69%, 71%);
+}

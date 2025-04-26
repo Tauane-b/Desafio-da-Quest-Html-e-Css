@@ -1,0 +1,105 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    min-height: 100vh;
+    background: url(../images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    display: flex;
+    font-size: 2rem;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    margin: 50px;
+    gap: 50%;
+}
+
+.container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.ilustracao{
+    display: flex;
+    gap: 5%;
+
+}
+
+ .ilustracao img {
+     width: 100%;
+     height: 100%;
+ }
+
+.text {
+    
+    max-width: 500px;
+  
+}
+
+.text h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.register-btn {
+
+    background-color: white;
+    color: #702ddd;
+    border: none;
+    padding: 10px 35px;
+    border-radius: 100px;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 10px hsl(300, 69%, 71%);
+}
+
+.register-btn:hover {
+    background-color: hsl(300, 69%, 71%);
+}
+
+footer {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 40px 0;
+    text-align: center;
+
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: all 0.3s ease;
+
+
+}
+
+.social-icons a:hover {
+    background-color: #fff;
+    color: hsl(300, 69%, 71%);
+}
